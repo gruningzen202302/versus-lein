@@ -6,4 +6,6 @@
   :dependencies [[org.clojure/clojure "1.10.0"]]
   :main ^:skip-aot versus.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :plugins [[cider/cider-nrepl "0.24.0"]]
+  )
